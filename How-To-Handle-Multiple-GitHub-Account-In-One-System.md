@@ -11,10 +11,10 @@ The Solution is to configure user name and user email on a per-repository basis 
 
 ```
 # Require setting user.name and email per-repo:
-$ git config --global user.useConfigOnly true
+`$ git config --global user.useConfigOnly true`
 
 # Remove email address from global config:
-$ git config --global --unset-all user.email
+`$ git config --global --unset-all user.email`
 
 ``` 
 Once we have completed the above steps. For every new repository git will ask us to explicitly provide the user.name and user.email information on first commit.
