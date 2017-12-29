@@ -19,7 +19,7 @@ $ git config --global --unset-all user.email
 ``` 
 Once we have completed the above steps. For every first commit to a new repository git will ask us to explicitly provide the user.name and user.email.
 
-![Git Prompt For identity](/assets/GitPromptForNameAndEmail.png)
+![Git Prompt For identity](/assets/GitPromptForNameAndEmail.PNG)
 
 
 
